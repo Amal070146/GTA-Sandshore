@@ -7,10 +7,19 @@
   width: 100%;
   padding: 0%;
   margin: 0%;
-  background: url("../../assets/homebg.png") center no-repeat;
+  background: url("../../assets/homebg.png")center center/cover no-repeat;
 }
 
 .hh1{
 color: #4E251F;
-font-size: 50px;
+font-size: 55px;
+width: 500px;
+text-align: right;
+position: absolute;
+top: 10%;
+right: 10%;
+}
+
+.hh1>span{
+    color:#944833 ;
 }
